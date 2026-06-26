@@ -8,7 +8,7 @@ import { Carousel } from './carousel/carousel';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ RouterOutlet, NavbarComponent],
+  imports: [ RouterOutlet, NavbarComponent,Carousel ],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
